@@ -78,3 +78,9 @@ button{
     }
 
   }
+  input:invalid:focus{
+    background-image: url("images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: 96%;
+    border: 2px solid red;
+  }
