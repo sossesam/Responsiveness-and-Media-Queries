@@ -4,6 +4,7 @@
 }
 body{
     height: 98vh;
+    font-size: 16px;
     display: flex;
     background-color: hsl(0, 100%, 74%);
     background-image: url("images/bg-intro-desktop.png");
@@ -12,11 +13,50 @@ body{
     
 }
 #main{
-    width: 70%;
-    height: 70vh;
+    width: 75%;
+    height: 90vh;
+    
     display: flex;
     flex-direction: row;
-    background-color: blue;
     justify-content: center;
     align-items: center;
+}
+#info{
+    padding: 5%;
+    color: white;
+}
+#info_head{
+    margin: 5%;
+}
+#info_summary{
+    margin: 5%;
+}
+#action_call{
+    width: 100%;
+    background-color:  hsl(248, 32%, 49%) ;
+    text-align: center;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 20px;
+    box-shadow: 0px 4px hsl(246, 25%, 77%);
+    color: white;
+}
+#form_content{
+    border-radius: 10px;
+    width: 100%;
+    background-color: aliceblue;
+    padding: 5%;
+    margin: 5%;
+}
+input , button{
+    width: 90%;
+    margin: 1%;
+    padding: 3%;
+    border: 0px;
+}
+#terms{
+    margin: auto;
+    width: 50%;
+    font-size: small;
+    text-align: center;
 }
