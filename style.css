@@ -69,5 +69,5 @@ input , button{
 button{
     background-color: hsl(154, 59%, 51%);
     color: white;
-    
+    cursor: pointer;  
 }
